@@ -1,9 +1,11 @@
 namespace: petclinic-dev
 
 resources:
-  - ../../base
+- ../../base
 
 images:
-  - name: petclinic
-    newName: quay.io/pittar/petclinic
-    newTag: dev
+- name: petclinic
+  newName: petclinic-update
+  newTag: next
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization

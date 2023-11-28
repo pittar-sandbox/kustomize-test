@@ -1,0 +1,9 @@
+namespace: petclinic-test
+
+resources:
+  - ../../base
+
+images:
+  - name: petclinic
+    newName: quay.io/pittar/petclinic
+    newTag: test

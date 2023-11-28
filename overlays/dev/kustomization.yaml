@@ -1,0 +1,9 @@
+namespace: petclinic-dev
+
+resources:
+  - ../../base
+
+images:
+  - name: petclinic
+    newName: quay.io/pittar/petclinic
+    newTag: dev
